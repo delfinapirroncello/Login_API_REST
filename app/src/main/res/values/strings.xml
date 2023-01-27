@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login API REST</string>
+    <string name="main_login">Login</string>
+    <string name="hint_email">email</string>
+    <string name="hint_password">password</string>
+    <string name="main_type_register">Register</string>
+    <string name="main_type_login">Login</string>
+    <string name="main_error_server">Error en la petición</string>
+    <string name="boton_register">Perfil</string>
+    <string name="description_img_profile">Image</string>
+    <string name="profile_title">User Profile</string>
+</resources>
