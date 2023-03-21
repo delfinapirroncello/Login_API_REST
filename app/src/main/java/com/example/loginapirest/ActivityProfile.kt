@@ -10,7 +10,6 @@ import com.bumptech.glide.load.resource.bitmap.CircleCrop
 import com.example.loginapirest.databinding.ActivityProfileBinding
 import com.google.android.material.snackbar.Snackbar
 import com.google.gson.Gson
-import com.pirro.stores.LoginApplication
 
 class ActivityProfile: AppCompatActivity () {
 
