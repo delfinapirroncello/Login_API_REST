@@ -1,4 +1,4 @@
-package com.example.loginapirest
+package com.pirro.stores.common.database
 
 import android.content.Context
 import com.android.volley.Request
@@ -10,7 +10,7 @@ class ReqResAPI constructor(context: Context) {
         @Volatile
         private var INSTANCE: ReqResAPI? = null
 
-        fun getInstance(context: Context) = INSTANCE ?: synchronized(this){
+        fun getInstance(context: Context) = INSTANCE?: synchronized(this){
             INSTANCE ?: ReqResAPI(context).also { INSTANCE = it }
         }
     }

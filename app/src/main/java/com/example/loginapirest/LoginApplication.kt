@@ -1,6 +1,7 @@
 package com.example.loginapirest
 
 import android.app.Application
+import com.pirro.stores.common.database.ReqResAPI
 
 class LoginApplication : Application() {
     companion object{
