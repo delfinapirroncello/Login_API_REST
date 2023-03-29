@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light_violet_"
     tools:context=".MainActivity">
     
     <com.google.android.material.switchmaterial.SwitchMaterial
@@ -34,6 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/main_login"
+        android:backgroundTint="@color/greyish_violet"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -56,6 +58,9 @@
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/violet"
+            android:textSize="16dp"
+            android:textStyle="bold"
             android:inputType="textEmailAddress"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -75,6 +80,9 @@
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:background="@color/violet"
             android:inputType="textPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -84,6 +92,7 @@
     android:layout_height="wrap_content"
     android:layout_marginBottom="@dimen/common_padding_default"
     android:text="@string/boton_register"
+    android:backgroundTint="@color/greyish_violet"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintBottom_toBottomOf="parent"

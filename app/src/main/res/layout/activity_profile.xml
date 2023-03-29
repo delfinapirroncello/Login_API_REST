@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/common_padding_default"
+    android:background="@color/light_violet_"
     tools:context=".ActivityProfile">
 
     <ImageView
@@ -48,6 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/common_padding_min"
         android:gravity="center"
+        android:textSize="18dp"
         android:textAppearance="?attr/textAppearanceOverline"
         tools:text="message"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,6 +63,7 @@
         android:gravity="center"
         android:textAppearance="?attr/textAppearanceCaption"
         tools:text="https://..."
+        android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
