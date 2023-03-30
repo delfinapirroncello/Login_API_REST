@@ -1,12 +1,12 @@
 # Login_API_REST
 
-Una App la cual consiste en un Login en el cual ingresas los datos correspondientes. 
-Con los datos que se solicitan mostrará un Token en el caso de Login y en el caso de Register mostrará un Id y un Token
+Una App la cual consiste en completar un Login con los datos correspondientes. 
+Una vez que estén completos los datos y haciendo click en el botón se mostrará un Token en el caso de Login y mostrará un Id y un Token en el caso de Register.
 
-## Pantallas de IMC App
+## Pantallas de API REST:
 ** *Pantalla 1: **Es la pantalla de inicio. Consiste en solicitar los datos que brinda la API (mail y password) para brindarte un Token. Tambien en el caso de que no complete con los datos correctos enviará un mensaje de eror en la petición.
 
-** *Pantalla 2: **Consiste en mostrar un perfil llamado con la API que muestra un mail y una imagen. En la parte inferior muestra información adicional tambien llamada por la API.
+** *Pantalla 2: **Consiste en mostrar un perfil llamado con la API que muestra un mail y una imagen. En la parte inferior muestra información adicional tambien llamada con la API.
 
 ## Desarrollo
 *Lenguaje: Kotlin
