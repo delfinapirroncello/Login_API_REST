@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backbround"
     android:padding="@dimen/common_padding_default"
-    android:background="@color/light_violet_"
     tools:context=".ActivityProfile">
 
     <ImageView
@@ -14,10 +14,10 @@
         android:layout_width="@dimen/profile_img_size"
         android:layout_height="@dimen/profile_img_size"
         android:contentDescription="@string/description_img_profile"
-        tools:src="@mipmap/ic_launcher"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@mipmap/ic_launcher_foreground" />
 
     <TextView
         android:id="@+id/textNameSuport"
@@ -26,10 +26,11 @@
         android:layout_marginTop="@dimen/common_padding_default"
         android:gravity="center"
         android:textAppearance="?attr/textAppearanceHeadline6"
-        tools:text="nombre completo"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/avatarSuport"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/avatarSuport"
+        tools:text="nombre completo" />
 
     <TextView
         android:id="@+id/textEmailSuport"
@@ -38,10 +39,11 @@
         android:layout_marginTop="@dimen/common_padding_min"
         android:gravity="center"
         android:textAppearance="?attr/textAppearanceSubtitle1"
-        tools:text="email@dominio.com"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textNameSuport"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textNameSuport"
+        tools:text="email@dominio.com" />
 
     <TextView
         android:id="@+id/txResponse"
@@ -49,12 +51,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/common_padding_min"
         android:gravity="center"
-        android:textSize="18dp"
         android:textAppearance="?attr/textAppearanceOverline"
-        tools:text="message"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/tvSupportUrl"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/tvSupportUrl"/>
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="message" />
 
     <TextView
         android:id="@+id/tvSupportUrl"
@@ -62,10 +65,11 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textAppearance="?attr/textAppearanceCaption"
-        tools:text="https://..."
-        android:textSize="18dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="https://..." />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
