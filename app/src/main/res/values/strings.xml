@@ -9,4 +9,5 @@
     <string name="boton_register">Perfil</string>
     <string name="description_img_profile">Image</string>
     <string name="profile_title">User Profile</string>
+    <string name="imageicon">imageIcon</string>
 </resources>
